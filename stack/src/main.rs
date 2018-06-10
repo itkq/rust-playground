@@ -4,9 +4,7 @@ struct Stack<T> {
 
 impl<T> Stack<T> {
     fn new() -> Stack<T> {
-        Stack {
-            elem: Vec::new(),
-        }
+        Stack { elem: Vec::new() }
     }
 
     fn size(&self) -> usize {
